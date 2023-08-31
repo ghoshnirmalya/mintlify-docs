@@ -100,29 +100,29 @@ Curious about what changed in a CLI version? [Check out the CLI changelog.](/cha
 <Tabs>
   <Tab title="ABC">
 
-    Consider the following list of events:
+Consider the following list of events:
 
-    | Event         | Amount | Total number of events         | Total amount       | Result     |
-    | ------------- | ------ | ------------------------------ | ------------------ | ---------- |
-    | Transaction 1 | \$200  | 1 free event (out of 3)        | \$200 (\$500 free) | No charges |
-    | Transaction 2 | \$100  | 2 free events (out of 3)       | \$300 (\$500 free) | No charges |
-    | Transaction 3 | \$100  | 3 free events (out of 3)       | \$400 (\$500 free) | No charges |
-    | Transaction 4 | \$50   | 4 events (free units exceeded) | \$450 (\$500 free) | Charge     |
+| Event         | Amount | Total number of events         | Total amount       | Result     |
+| ------------- | ------ | ------------------------------ | ------------------ | ---------- |
+| Transaction 1 | \$200  | 1 free event (out of 3)        | \$200 (\$500 free) | No charges |
+| Transaction 2 | \$100  | 2 free events (out of 3)       | \$300 (\$500 free) | No charges |
+| Transaction 3 | \$100  | 3 free events (out of 3)       | \$400 (\$500 free) | No charges |
+| Transaction 4 | \$50   | 4 events (free units exceeded) | \$450 (\$500 free) | Charge     |
 
-    Therefore, for the fourth transaction, the charge will be \$0.10 x 1 event + 1.2%
-    of \$50 = \$0.70.
+Therefore, for the fourth transaction, the charge will be \$0.10 x 1 event + 1.2%
+of \$50 = \$0.70.
 
   </Tab>
   <Tab title="DEF">
 
-      | Tier   | First unit | Last unit | Unit price | Fixed fee  |
-      | ------ | ---------- | --------- | ---------- | ---------- |
-      | Tier 1 | 0          | 10,000    | \$0.0010   | \$10       |
-      | Tier 2 | 10,001     | 50,000    | \$0.0008   | \$10       |
-      | Tier 3 | 50,001     | 100,000   | \$0.0006   | \$10       |
-      | Tier 4 | 100,001    | ∞         | \$0.0004   | \$10       |
+    | Tier   | First unit | Last unit | Unit price | Fixed fee  |
+    | ------ | ---------- | --------- | ---------- | ---------- |
+    | Tier 1 | 0          | 10,000    | \$0.0010   | \$10       |
+    | Tier 2 | 10,001     | 50,000    | \$0.0008   | \$10       |
+    | Tier 3 | 50,001     | 100,000   | \$0.0006   | \$10       |
+    | Tier 4 | 100,001    | ∞         | \$0.0004   | \$10       |
 
-      In this case, 65,000 API calls would cost 65,000 x \$0.0006 + \$10 = \$49.
+    In this case, 65,000 API calls would cost 65,000 x \$0.0006 + \$10 = \$49.
 
   </Tab>
   <Tab title="GHI">
