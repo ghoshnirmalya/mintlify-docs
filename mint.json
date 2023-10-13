@@ -11,11 +11,8 @@
     "light": "#AE87FF",
     "dark": "#0D001D",
     "background": {
+      "light": "#55D799",
       "dark": "#090014"
-    },
-    "anchors": {
-      "from": "#FF7F57",
-      "to": "#9563FF"
     }
   },
   "topbarLinks": [
@@ -54,7 +51,12 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["quickstart", "development", "velt", "lago"]
+      "pages": [
+        "quickstart",
+        "development",
+        "velt",
+        "lago"
+      ]
     },
     {
       "group": "Essentials",
@@ -70,7 +72,9 @@
     },
     {
       "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
+      "pages": [
+        "api-reference/authentication"
+      ]
     },
     {
       "group": "Endpoint Examples",
