@@ -54,7 +54,7 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development", "velt", "lago"]
+      "pages": ["quickstart", "development", "velt", "lago"]
     },
     {
       "group": "Essentials",
