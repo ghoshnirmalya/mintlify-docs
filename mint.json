@@ -8,13 +8,12 @@
   "favicon": "/favicon.png",
   "colors": {
     "primary": "#9563FF",
-    "light": "#fff",
-    "dark": "#ffffff",
+    "light": "#ff0",
+    "dark": "#fff000",
     "background": {
       "light": "#55D799",
       "dark": "#2e2e2e"
-    },
-    "background.dark": "#eeeeee"
+    }
   },
   "topbarLinks": [
     {
