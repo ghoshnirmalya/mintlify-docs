@@ -7,4 +7,4 @@ paths:
   /company/all:
     get:
       invalid
-Hi
+Hi Hello!
