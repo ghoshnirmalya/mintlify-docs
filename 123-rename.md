@@ -4,4 +4,5 @@ description: 'Description of your new file.'
 ---
 
 
-123455
+![Hello](/logo/dark.svg).
+![Hello](./logo/dark.svg)
