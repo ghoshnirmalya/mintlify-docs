@@ -5,14 +5,14 @@
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.png",
+  "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#fff000",
-    "light": "#0000ff",
-    "dark": "#00ff00",
-    "background": {
-      "light": "#55D799",
-      "dark": "#ff0000"
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
     }
   },
   "topbarLinks": [
@@ -51,40 +51,22 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": [
-        "quickstart",
-        "development",
-        "velt",
-        "lago"
-      ]
+      "pages": ["introduction", "quickstart", "development"]
     },
     {
       "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/overview-copy",
-        "essentials/overview-redirect"
-      ]
+      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
     },
     {
       "group": "API Documentation",
-      "pages": [
-        "api-reference/authentication"
-      ]
+      "pages": ["api-reference/introduction"]
     },
     {
       "group": "Endpoint Examples",
       "pages": [
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete",
-        "api-reference/overview-copy",
-        "api-reference/overview-redirect"
+        "api-reference/endpoint/delete"
       ]
     }
   ],
