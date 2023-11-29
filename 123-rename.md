@@ -12,3 +12,6 @@ description: 'Description of your new file.'
 ## Hello
 
 ![Hero Image](https://mintlify-assets.b-cdn.net/intro-hero-light.png)
+
+Hello world!
+
