@@ -3,4 +3,28 @@ title: 'New file'
 description: 'Description of your new file.'
 ---
 
-![Hello](/logo/dark.svg).
+## Markdown image format
+![Hello](/logo/dark.svg)
+![Hello](/logo/light.svg)
+
+## HTML image format
+<img src="/logo/dark.svg" />
+<img src="/logo/light.svg" />
+
+### Frame
+
+<Frame>
+  <img src="/logo/light.svg" />
+</Frame>
+
+### Frame with caption
+
+<Frame caption="Caption Text">
+  <img src="/logo/light.svg" />
+</Frame>
+
+### Glass frame
+
+<Frame type="glass">
+  <img src="/logo/light.svg" />
+</Frame>
