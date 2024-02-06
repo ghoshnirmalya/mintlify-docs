@@ -16,7 +16,7 @@ description: 'Description of your new file.'
 <Frame>
   <img src="/logo/light.svg" />
 </Frame>
-
+ 
 ### Frame with caption
 
 <Frame caption="Caption Text">
