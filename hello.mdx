@@ -1,12 +1,101 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: "New file"
+description: "Description of your new file."
 ---
 
-Light (should only be visible in light mode)
-<iframe src="https://5z9rdw.csb.app/" height="400px" width="100%" class="block dark:hidden" />
+## Markdown image format
 
-Dark (should only be visible in dark mode)
-<iframe src="https://5l9cws.csb.app/" height="400px" width="100%" class="hidden dark:block"/>
+![Hello](/logo/dark.svg)
+![Hello](/logo/light.svg)
 
- 
+## HTML image format
+
+<img src="/logo/dark.svg" />
+<img src="/logo/light.svg" />
+
+### Frame
+
+<Frame>
+  <img src="/logo/light.svg" />
+</Frame>
+
+### Frame with caption
+
+<Frame caption="Caption Text">
+  <img src="/logo/light.svg" />
+</Frame>
+
+### Glass frame
+
+<Frame type="glass">
+  <img src="/logo/light.svg" />
+</Frame>
+
+```mermaid
+  sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```
+
+```mermaid
+  sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+    Alice-)John: See you later!
+```
+
+```mermaid
+  sequenceDiagram
+    actor Alice
+    actor Bob
+    Alice->>Bob: Hi Bob
+    Bob->>Alice: Hi Alice
+```
+
+```mermaid
+  sequenceDiagram
+    Alice->>Bob: Hello Bob, how are you ?
+    Bob->>Alice: Fine, thank you. And you?
+    create participant Carl
+    Alice->>Carl: Hi Carl!
+    create actor D as Donald
+    Carl->>D: Hi!
+    destroy Carl
+    Alice-xCarl: We are too many
+    destroy Bob
+    Bob->>Alice: I agree
+```
+
+```mermaid
+  classDiagram
+    note "From Duck till Zebra"
+    Animal <|-- Duck
+    note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+      +String beakColor
+      +swim()
+      +quack()
+    }
+    class Fish{
+      -int sizeInFeet
+      -canEat()
+    }
+    class Zebra{
+      +bool is_wild
+      +run()
+    }
+```
