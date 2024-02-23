@@ -4,9 +4,9 @@ description: 'Description of your new file.'
 ---
 
 
-![Hello](/logo/dark.svg).
+![Hello](https://mintlify.s3-us-west-1.amazonaws.com/mintlify-82/logo/light.svg)
 
-![Hello](./logo/dark.svg).
+![Hello](https://mintlify.s3-us-west-1.amazonaws.com/mintlify-82/logo/dark.svg)
 
 
 ## Hello
