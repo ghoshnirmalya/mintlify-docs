@@ -1,1 +1,1 @@
-my new file contents. ddddjjjjjkk
+asd
