@@ -1,1 +1,1 @@
-my new file contents. ddddssdddjj
+my new file contents. dd
